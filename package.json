@@ -1,6 +1,6 @@
 {
     "name": "@leggnom/json-migration",
-    "version": "1.0.0",
+    "version": "1.0.7",
     "description": "",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",

@@ -67,7 +67,7 @@ export class Migration {
         this[dataInput] = data;
     }
 
-    version<T>(verion: number) {
+    version(verion: number) {
         const engine = new Engine();
         this[versions].set(verion, engine);
         return engine;

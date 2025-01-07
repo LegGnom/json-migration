@@ -8,4 +8,4 @@ export interface JsonMigrationMeta {
     updated_at?: string;
 }
 
-export type MigrationHandler = <T>(data: any) => T;
+export type MigrationHandler = (data: any) => any;
